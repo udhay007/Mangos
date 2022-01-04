@@ -13,7 +13,7 @@ public class Demo {
 		l.add(400);
 		l.add(500);
 		
-		
+		System.out.println("forward direction");
 		
 		
 		
