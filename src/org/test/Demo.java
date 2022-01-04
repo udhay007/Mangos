@@ -15,22 +15,9 @@ public class Demo {
 		
 		
 
-		 System.out.println("has next");
-	   while (listIterator.hasNext()) {
-		Integer integer = (Integer) listIterator.next();
-		System.out.println(integer);
-		
-	}
-	   System.out.println("has previous");
-	   while (listIterator.hasPrevious()) {
-		Integer integer = (Integer) listIterator.previous();
-		System.out.println(integer);
-		
-		if (integer==200) {
-			listIterator.remove();
 		}
 	}
-	   System.out.println(l);
+	   
 }
 		
 		
